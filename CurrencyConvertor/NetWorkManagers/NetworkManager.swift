@@ -12,7 +12,7 @@ private typealias APICalls = NetworkManager
 
 class NetworkManager: NSObject {
     
-    var baseURL = ORAPIConstants.baseURL
+    var baseURL = AppConstants.baseURL
     var shouldSaveCookies:Bool = false
     internal typealias ApiCompletionBlock = (_ responseObject : AnyObject?, _ errorObject : NSError?) -> ()
     
@@ -28,15 +28,15 @@ class NetworkManager: NSObject {
     }
     
     /// csrft token that has to be sent on each post request
-    var csrftToken:String{
-        set {
-            UserDefaults.standard.setValue(newValue, forKey: ORConstants.csrfToken)
-        }
-        get {
-            /// Returns previously assigned csrf token
-            return UserDefaults.standard.object(forKey: ORConstants.csrfToken) as? String ?? ""
-        }
-    }
+//    var csrftToken:String{
+//        set {
+//            UserDefaults.standard.setValue(newValue, forKey: ORConstants.csrfToken)
+//        }
+//        get {
+//            /// Returns previously assigned csrf token
+//            return UserDefaults.standard.object(forKey: ORConstants.csrfToken) as? String ?? ""
+//        }
+//    }
     
 
     
@@ -60,28 +60,28 @@ class NetworkManager: NSObject {
      */
     
     
-    fileprivate func requestHeader(with csrftToken:String? = nil) -> [String:String] {
-        var  headers = [ORAPIConstants.acceptLanguage:CountryInfoVM.getDeviceLanguage()]
-        if let token = csrftToken {
-            headers [  "X-CSRFToken" ] =  token
-        }
-        if let sessionID =  UserDefaults.standard.value(forKey: ORConstants.sessionToken) {
-            headers [ORAPIConstants.sessionid] = sessionID as? String
-        }
-        // Added new header for versioning
-        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
-            headers [ORAPIConstants.accept] =  "application/json;version=" + version
-        }
-        // Added new header for versioning
-        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
-            headers [ORAPIConstants.accept] =  "application/json;version=" + version
-        }
-        
-        // Added Device information
-            headers [ORAPIConstants.deviceModel] = UIDevice.current.name
-        
-        return headers
-    }
+//    fileprivate func requestHeader(with csrftToken:String? = nil) -> [String:String] {
+//        var  headers = [ORAPIConstants.acceptLanguage:CountryInfoVM.getDeviceLanguage()]
+//        if let token = csrftToken {
+//            headers [  "X-CSRFToken" ] =  token
+//        }
+//        if let sessionID =  UserDefaults.standard.value(forKey: ORConstants.sessionToken) {
+//            headers [ORAPIConstants.sessionid] = sessionID as? String
+//        }
+//        // Added new header for versioning
+//        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+//            headers [ORAPIConstants.accept] =  "application/json;version=" + version
+//        }
+//        // Added new header for versioning
+//        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+//            headers [ORAPIConstants.accept] =  "application/json;version=" + version
+//        }
+//
+//        // Added Device information
+//            headers [ORAPIConstants.deviceModel] = UIDevice.current.name
+//
+//        return headers
+//    }
     
 }
 
@@ -97,7 +97,7 @@ extension APICalls {
      */
        func getRequestPath(url:String, parameters:[String:AnyObject]?, completionBlock:@escaping ApiCompletionBlock) {
      
-        Alamofire.request(url, method: .get, parameters: parameters, encoding: JSONEncoding.default, headers:requestHeader())
+        Alamofire.request(url, method: .get, parameters: parameters, encoding: JSONEncoding.default, headers:nil)
             .responseJSON { [weak self] (response) -> Void in
                 
                 guard let weakSelf = self else {
@@ -109,27 +109,25 @@ extension APICalls {
                         switch (response.result){
                         case .success(_):
                             /* to check versonError in result*/
-                            weakSelf.checkForVersionErrorBannerMessage(response: response)
-                            weakSelf.saveCookies()
-                            completionBlock(response.result.value as AnyObject?, nil)
+                            completionBlock(response.data as AnyObject?, nil)
                         case .failure(let error):
                             completionBlock(nil, error as NSError? )
                         }
                     }
                         
                     else{
-                        weakSelf.handleInvalidStatusCodes(response: response)
+                       // weakSelf.handleInvalidStatusCodes(response: response)
                     }
                 } else {
                     // Check for errorCode 53 added to handle error in iOS 12 on calling Api immeadiately after app enters foreground
                     if let error = response.error as NSError?, error.code == weakSelf.connectionAbortErrorCode {
-                        Alamofire.request(url, method: .get, parameters: parameters, encoding: JSONEncoding.default, headers:weakSelf.requestHeader()).responseJSON { [weak self] (response) -> Void in
+                        Alamofire.request(url, method: .get, parameters: parameters, encoding: JSONEncoding.default, headers:nil).responseJSON { [weak self] (response) -> Void in
                             guard let weakSelf = self else {
                                 return
                             }
                             
                             if let statusCode = response.response?.statusCode {
-                                weakSelf.checkForValidStatusCode(statusCode: statusCode, response: response, completionBlock: completionBlock)
+                               
                             } else {
                                 completionBlock(nil, response.error as NSError? )
                             }
@@ -142,28 +140,28 @@ extension APICalls {
     }
 
     
-    private func checkForValidStatusCode(statusCode: Int, response: DataResponse<Any>, completionBlock: ApiCompletionBlock) {
-        if validateStatusCode(with: statusCode) == true {
-            switch (response.result){
-            case .success(_):
-                /* to check versonError in result*/
-                checkForVersionErrorBannerMessage(response: response)
-                saveCookies()
-                completionBlock(response.result.value as AnyObject?, nil)
-            case .failure(let error):
-                completionBlock(nil, error as NSError? )
-            }
-        } else {
-            handleInvalidStatusCodes(response: response)
-        }
-    }
-    
-    
-    class func createGenericError() -> NSError {
-        let statusMessage = ORConstants.genericErrorMessage
-        let  error = NSError(domain: "", code: 1, userInfo:[NSLocalizedDescriptionKey: statusMessage,NSLocalizedFailureReasonErrorKey: statusMessage])
-        return error
-    }
+//    private func checkForValidStatusCode(statusCode: Int, response: DataResponse<Any>, completionBlock: ApiCompletionBlock) {
+//        if validateStatusCode(with: statusCode) == true {
+//            switch (response.result){
+//            case .success(_):
+//                /* to check versonError in result*/
+//                checkForVersionErrorBannerMessage(response: response)
+//                saveCookies()
+//                completionBlock(response.result.value as AnyObject?, nil)
+//            case .failure(let error):
+//                completionBlock(nil, error as NSError? )
+//            }
+//        } else {
+//            handleInvalidStatusCodes(response: response)
+//        }
+//    }
+//
+//
+//    class func createGenericError() -> NSError {
+//        let statusMessage = ORConstants.genericErrorMessage
+//        let  error = NSError(domain: "", code: 1, userInfo:[NSLocalizedDescriptionKey: statusMessage,NSLocalizedFailureReasonErrorKey: statusMessage])
+//        return error
+//    }
 
     
 }

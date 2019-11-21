@@ -11,5 +11,8 @@ import UIKit
 class MenuCollectionViewCell: UICollectionViewCell {
     @IBOutlet var menuImageView: UIImageView!
     @IBOutlet var titleLabel: UILabel!
-    
+    func configureCell(_ title:String,_ imageString:String){
+        menuImageView.image = UIImage.init(named: imageString)
+        titleLabel.text = title
+    }
 }
