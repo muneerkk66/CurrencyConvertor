@@ -6,7 +6,7 @@
 //  Copyright © 2019 Muneer KK. All rights reserved.
 //
 import UIKit
-
+ //MARK: - Custom textfield is used to customize the textfield values we have added two ibinspectable for updating the left padding & right passing. The value is customizable from interface element
 @IBDesignable
 extension UITextField {
 

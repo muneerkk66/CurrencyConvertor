@@ -48,8 +48,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
             endingLineNumber = "27"
-            landmarkName = "fetchCurrencyDetails(onCompletion:)"
-            landmarkType = "7">
+            landmarkName = "ConvertorVM"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "96B76289-91C7-4DF3-9779-5CD444F1C905 - 660c30f71134db85"
@@ -238,10 +238,10 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "loadCurrencyList()"
-            landmarkType = "7">
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "ConvertorVC"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -254,8 +254,8 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "fetchCurrencyDetails()"
             landmarkType = "7">
          </BreakpointContent>
@@ -270,8 +270,8 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "fetchCurrencyDetails()"
             landmarkType = "7">
          </BreakpointContent>
@@ -286,10 +286,10 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "fetchCurrencyDetails()"
-            landmarkType = "7">
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "ConvertorVC"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "C0FC716D-1641-4CA3-8DC2-829BA9956C7F - 91fe03eb763856c9"
@@ -327,22 +327,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DBEE7D8B-ED1B-451C-BF6E-3F1C3B018408"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "loadCurrencyDetails(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "EA9E6682-A044-4144-AF61-65616438ADE5"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -350,8 +334,8 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "loadCurrencyDetails(from:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -369,22 +353,6 @@
             startingLineNumber = "42"
             endingLineNumber = "42"
             landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FB204BD8-1BDD-47D5-93AC-8BA12DC94072"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/CurrencyListVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -439,54 +407,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5DED97AF-97BA-4DB2-856F-25B463E3A19D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5DB768B6-6CD8-4AE3-B792-EC6A5A142EB2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8F3BC098-4050-4F9F-BD2B-B741D47A3063"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E7DB7FB9-6FC8-4183-824D-57F4F3A0CE25"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -497,22 +417,6 @@
             startingLineNumber = "18"
             endingLineNumber = "18"
             landmarkName = "setCurrency(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FFD1A1AA-322C-468E-A7AF-87B056CF1111"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -535,102 +439,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "458F7132-9736-4135-AE1E-4DEB6EDCDFDA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewModel/Handlers/DataHandlers/ConvertorDataHandler.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "updateCurrencyListWithReference(_:_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "458F7132-9736-4135-AE1E-4DEB6EDCDFDA - 9225143a52240b1a"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CurrencyConvertor.ConvertorDataHandler.updateCurrencyListWithReference(CurrencyConvertor.CurrencyRate, Swift.Array&lt;CurrencyConvertor.CurrencyRate&gt;) -&gt; Swift.Array&lt;CurrencyConvertor.CurrencyRate&gt;"
-                  moduleName = "CurrencyConvertor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/CurrencyConvertor/CurrencyConvertor/ViewModel/Handlers/DataHandlers/ConvertorDataHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "187">
-               </Location>
-               <Location
-                  uuid = "458F7132-9736-4135-AE1E-4DEB6EDCDFDA - b28fb9324d58452a"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CurrencyConvertor.CurrencyRate) -&gt; Swift.Bool in CurrencyConvertor.ConvertorDataHandler.updateCurrencyListWithReference(CurrencyConvertor.CurrencyRate, Swift.Array&lt;CurrencyConvertor.CurrencyRate&gt;) -&gt; Swift.Array&lt;CurrencyConvertor.CurrencyRate&gt;"
-                  moduleName = "CurrencyConvertor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/CurrencyConvertor/CurrencyConvertor/ViewModel/Handlers/DataHandlers/ConvertorDataHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B7AEF68C-2EBF-409F-A22C-D5B153DCA17C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "didSelectCurrency(currency:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B7AEF68C-2EBF-409F-A22C-D5B153DCA17C - 6db7da15fb3e243e"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CurrencyConvertor.ConvertorVC.didSelectCurrency(currency: CurrencyConvertor.CurrencyRate) -&gt; ()"
-                  moduleName = "CurrencyConvertor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/CurrencyConvertor/CurrencyConvertor/ViewController/ConvertorVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "140"
-                  endingLineNumber = "140"
-                  offsetFromSymbolStart = "158">
-               </Location>
-               <Location
-                  uuid = "B7AEF68C-2EBF-409F-A22C-D5B153DCA17C - d4d317c9939e702d"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CurrencyConvertor.CurrencyRate) -&gt; Swift.Bool in CurrencyConvertor.ConvertorVC.didSelectCurrency(currency: CurrencyConvertor.CurrencyRate) -&gt; ()"
-                  moduleName = "CurrencyConvertor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/CurrencyConvertor/CurrencyConvertor/ViewController/ConvertorVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "141"
-                  endingLineNumber = "141"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "DCC732B3-E045-4AD6-BE85-FD58C827A310"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -638,9 +446,9 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "didSelectCurrency(currency:)"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "loadCurrencyList()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -654,25 +462,9 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "didSelectCurrency(currency:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "021EBA3C-9F5F-4143-835B-B5D6DC8D3A4C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "loadCurrencyDetails(from:)"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "loadCurrencyList()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -702,8 +494,8 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "loadCurrencyDetails(from:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -718,8 +510,8 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "updateCurrencyRate(with:type:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -734,8 +526,8 @@
             filePath = "CurrencyConvertor/ViewController/ConvertorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "updateCurrencyRate(with:type:)"
             landmarkType = "7">
          </BreakpointContent>

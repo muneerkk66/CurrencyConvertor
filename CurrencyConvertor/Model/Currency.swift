@@ -17,7 +17,7 @@ struct CurrencyRate:Codable {
     var code:String
     var rate:Double
     var name:String
-    
+    //MARK: Codingkey Swift will automatically use this as the key type. This therefore allows you to easily customise the keys that your properties are encoded/decoded with.
     enum CodingKeys: String, CodingKey {
          case code = "toccy"
          case rate = "rate"

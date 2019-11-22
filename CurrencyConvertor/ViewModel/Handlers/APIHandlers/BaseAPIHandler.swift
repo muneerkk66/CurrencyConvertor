@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class BaseAPIHandler: NSObject {
-
+    //MARK: - Common completetionblock for API classes
     internal typealias ApiCompletionBlock = (_ responseObject : AnyObject?, _ errorObject : NSError?) -> ()
     internal var networkManager : NetworkManager = NetworkManager()
 

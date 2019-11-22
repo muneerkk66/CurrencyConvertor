@@ -7,6 +7,7 @@
 //
 import UIKit
 import Foundation
+//MARK:- Currecny Rate round off
 extension Double {
     func roundTo(places:Int) -> Double {
         let divisor = pow(10.0, Double(places))

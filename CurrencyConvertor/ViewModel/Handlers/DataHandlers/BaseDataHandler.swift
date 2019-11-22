@@ -10,5 +10,6 @@ import Foundation
 import UIKit
 
 class BaseDataHandler: NSObject {
+    //MARK: - Common completetionblock for DataHandler classes
     internal typealias DataHandlerCompletionBlock = (_ errorObject : NSError?) -> ()
 }

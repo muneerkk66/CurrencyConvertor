@@ -11,6 +11,8 @@ import UIKit
 class MenuCollectionViewCell: UICollectionViewCell {
     @IBOutlet var menuImageView: UIImageView!
     @IBOutlet var titleLabel: UILabel!
+    
+     //MARK: - Set the UI componets
     func configureCell(_ title:String,_ imageString:String){
         menuImageView.image = UIImage.init(named: imageString)
         titleLabel.text = title

@@ -16,6 +16,7 @@
 		085E94402386AD3300FBEF32 /* ConvertorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E943E2386AD3300FBEF32 /* ConvertorVC.swift */; };
 		085E94422386B09B00FBEF32 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E94412386B09B00FBEF32 /* CurrencyTableViewCell.swift */; };
 		085E94442386B31500FBEF32 /* AppEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E94432386B31500FBEF32 /* AppEnum.swift */; };
+		088130DF2387F2E500FCAD8A /* ConvertorLicense.txt in Resources */ = {isa = PBXBuildFile; fileRef = 088130DE2387F2E500FCAD8A /* ConvertorLicense.txt */; };
 		08FFA1C12382E3F600B10BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FFA1C02382E3F600B10BCD /* AppDelegate.swift */; };
 		08FFA1C32382E3F600B10BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FFA1C22382E3F600B10BCD /* SceneDelegate.swift */; };
 		08FFA1C82382E3F600B10BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FFA1C62382E3F600B10BCD /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 		085E943E2386AD3300FBEF32 /* ConvertorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertorVC.swift; sourceTree = "<group>"; };
 		085E94412386B09B00FBEF32 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		085E94432386B31500FBEF32 /* AppEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnum.swift; sourceTree = "<group>"; };
+		088130DE2387F2E500FCAD8A /* ConvertorLicense.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConvertorLicense.txt; sourceTree = "<group>"; };
 		08FFA1BD2382E3F600B10BCD /* CurrencyConvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FFA1C02382E3F600B10BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08FFA1C22382E3F600B10BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 				08FFA2002382EE8B00B10BCD /* AppConstants.swift */,
 				08081E62238541E3004E8807 /* AppExtensions.swift */,
 				085E94432386B31500FBEF32 /* AppEnum.swift */,
+				088130DE2387F2E500FCAD8A /* ConvertorLicense.txt */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				08FFA1CD2382E3FA00B10BCD /* LaunchScreen.storyboard in Resources */,
 				08FFA1CA2382E3FA00B10BCD /* Assets.xcassets in Resources */,
 				08FFA1C82382E3F600B10BCD /* Main.storyboard in Resources */,
+				088130DF2387F2E500FCAD8A /* ConvertorLicense.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

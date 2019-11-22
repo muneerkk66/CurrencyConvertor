@@ -20,6 +20,7 @@ class CurrencyTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    //MARK:- Set the currencyView componets using the currency object
     func configureCell(_ currency:CurrencyRate){
         currencyView.setCurrency(currency)
     }

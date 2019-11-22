@@ -7,7 +7,9 @@
 //
 
 import UIKit
-protocol currencyListTableViewCellDelegate:class {
+
+//MARK: Delegate method for currecny selection
+protocol CurrencyListTableViewCellDelegate:class {
     
     func didSelectCurrency(currency:CurrencyRate)
 }
@@ -15,11 +17,10 @@ private typealias CurrencyListVCTableViewMethods = CurrencyListVC
 private typealias Constants = CurrencyListVC
 class CurrencyListVC: UIViewController {
 @IBOutlet weak var currencyListTableView: UITableView!
-    weak var delegate:currencyListTableViewCellDelegate?
+    weak var delegate:CurrencyListTableViewCellDelegate?
     var convertorVM:ConvertorVM = ConvertorVM()
     override func viewDidLoad() {
         super.viewDidLoad()
-        currencyListTableView.reloadData()
         // Do any additional setup after loading the view.
     }
     
@@ -68,6 +69,7 @@ extension CurrencyListVCTableViewMethods:UITableViewDelegate, UITableViewDataSou
            
     }
 }
+//MARK: - Tableview Constants
 extension Constants {
     struct Constants {
         static let rowHeight:CGFloat = 60.0

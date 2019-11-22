@@ -35,14 +35,14 @@ class AppConstants: NSObject {
     static let screenWidth         = UIScreen.main.bounds.size.width
     static let currencyDecimal     = 5
     
-    //MARK:- Default Currency is INR
+    //MARK:- Default Currency is MYR
     static let defaultCurrencyCode          = "MYR"
     static let defaultCurrencyValue         = 1.00
     static let defaultCurrencyName          = "MALAYSIA"
 
     
     //MARK:- Menu Options & Images
-    static let menuOptions = ["Send Money","Receipients","My Transfers","Live Chat","Promotions","My Account"]
+    static let menuOptions       = ["Send Money","Receipients","My Transfers","Live Chat","Promotions","My Account"]
     static let menuOptionImages = ["send","receipients","transfer","chat","promotions","accounts"]
    
 }
