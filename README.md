@@ -2,7 +2,7 @@
 
 ## Features
 -  You can convert  arround 25 country currency.
--  Both directional conversion is possible
+-  Bi-directional conversion is possible
 
 ## Requirements
 
