@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		080155282384595B00FBFE23 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080155272384595B00FBFE23 /* MenuCollectionViewCell.swift */; };
 		08081E63238541E3004E8807 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08081E62238541E3004E8807 /* AppExtensions.swift */; };
-		08081E652385475B004E8807 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08081E642385475B004E8807 /* PaddingLabel.swift */; };
+		08081E652385475B004E8807 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08081E642385475B004E8807 /* CustomTextField.swift */; };
 		08081E67238550AB004E8807 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08081E66238550AB004E8807 /* CurrencyView.swift */; };
 		08081E692385A210004E8807 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08081E682385A210004E8807 /* BaseVM.swift */; };
+		085E943F2386AD3300FBEF32 /* CurrencyListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E943D2386AD3300FBEF32 /* CurrencyListVC.swift */; };
+		085E94402386AD3300FBEF32 /* ConvertorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E943E2386AD3300FBEF32 /* ConvertorVC.swift */; };
+		085E94422386B09B00FBEF32 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E94412386B09B00FBEF32 /* CurrencyTableViewCell.swift */; };
+		085E94442386B31500FBEF32 /* AppEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E94432386B31500FBEF32 /* AppEnum.swift */; };
 		08FFA1C12382E3F600B10BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FFA1C02382E3F600B10BCD /* AppDelegate.swift */; };
 		08FFA1C32382E3F600B10BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FFA1C22382E3F600B10BCD /* SceneDelegate.swift */; };
-		08FFA1C52382E3F600B10BCD /* ConvertorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FFA1C42382E3F600B10BCD /* ConvertorVC.swift */; };
 		08FFA1C82382E3F600B10BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FFA1C62382E3F600B10BCD /* Main.storyboard */; };
 		08FFA1CA2382E3FA00B10BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FFA1C92382E3FA00B10BCD /* Assets.xcassets */; };
 		08FFA1CD2382E3FA00B10BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FFA1CB2382E3FA00B10BCD /* LaunchScreen.storyboard */; };
@@ -53,13 +56,16 @@
 /* Begin PBXFileReference section */
 		080155272384595B00FBFE23 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		08081E62238541E3004E8807 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
-		08081E642385475B004E8807 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		08081E642385475B004E8807 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		08081E66238550AB004E8807 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		08081E682385A210004E8807 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		085E943D2386AD3300FBEF32 /* CurrencyListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyListVC.swift; sourceTree = "<group>"; };
+		085E943E2386AD3300FBEF32 /* ConvertorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertorVC.swift; sourceTree = "<group>"; };
+		085E94412386B09B00FBEF32 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		085E94432386B31500FBEF32 /* AppEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnum.swift; sourceTree = "<group>"; };
 		08FFA1BD2382E3F600B10BCD /* CurrencyConvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FFA1C02382E3F600B10BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08FFA1C22382E3F600B10BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08FFA1C42382E3F600B10BCD /* ConvertorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConvertorVC.swift; path = ../ConvertorVC.swift; sourceTree = "<group>"; };
 		08FFA1C72382E3F600B10BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08FFA1C92382E3FA00B10BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08FFA1CC2382E3FA00B10BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -130,6 +136,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		085E943C2386AD0900FBEF32 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				085E943E2386AD3300FBEF32 /* ConvertorVC.swift */,
+				085E943D2386AD3300FBEF32 /* CurrencyListVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		08FFA1B42382E3F600B10BCD = {
 			isa = PBXGroup;
 			children = (
@@ -155,9 +170,9 @@
 		08FFA1BF2382E3F600B10BCD /* CurrencyConvertor */ = {
 			isa = PBXGroup;
 			children = (
+				085E943C2386AD0900FBEF32 /* ViewController */,
 				08FFA1F02382E46F00B10BCD /* Model */,
 				08FFA1F62382E73E00B10BCD /* ViewModel */,
-				08FFA1F22382E48200B10BCD /* ViewControllers */,
 				08FFA1F12382E47900B10BCD /* Views */,
 				08FFA1FB2382E7CB00B10BCD /* Utilities */,
 				08FFA1F32382E54F00B10BCD /* NetWorkManagers */,
@@ -201,18 +216,11 @@
 			isa = PBXGroup;
 			children = (
 				080155272384595B00FBFE23 /* MenuCollectionViewCell.swift */,
-				08081E642385475B004E8807 /* PaddingLabel.swift */,
+				08081E642385475B004E8807 /* CustomTextField.swift */,
 				08081E66238550AB004E8807 /* CurrencyView.swift */,
+				085E94412386B09B00FBEF32 /* CurrencyTableViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		08FFA1F22382E48200B10BCD /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				08FFA1C42382E3F600B10BCD /* ConvertorVC.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		08FFA1F32382E54F00B10BCD /* NetWorkManagers */ = {
@@ -273,6 +281,7 @@
 			children = (
 				08FFA2002382EE8B00B10BCD /* AppConstants.swift */,
 				08081E62238541E3004E8807 /* AppExtensions.swift */,
+				085E94432386B31500FBEF32 /* AppEnum.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -463,10 +472,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CurrencyConvertor-CurrencyConvertorUITests/Pods-CurrencyConvertor-CurrencyConvertorUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FittedSheets/FittedSheets.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FittedSheets.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,10 +492,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CurrencyConvertor/Pods-CurrencyConvertor-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FittedSheets/FittedSheets.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FittedSheets.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -517,14 +530,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				08FFA1FD2382EDDB00B10BCD /* BaseAPIHandler.swift in Sources */,
+				085E94442386B31500FBEF32 /* AppEnum.swift in Sources */,
 				08FFA2052382EF6300B10BCD /* ConvertorAPIHandler.swift in Sources */,
 				08FFA2092382EF9500B10BCD /* ConvertorVM.swift in Sources */,
-				08081E652385475B004E8807 /* PaddingLabel.swift in Sources */,
+				08081E652385475B004E8807 /* CustomTextField.swift in Sources */,
 				08FFA1FF2382EDE900B10BCD /* BaseDataHandler.swift in Sources */,
 				08081E692385A210004E8807 /* BaseVM.swift in Sources */,
 				08FFA1F52382E65700B10BCD /* NetworkManager.swift in Sources */,
 				08081E63238541E3004E8807 /* AppExtensions.swift in Sources */,
-				08FFA1C52382E3F600B10BCD /* ConvertorVC.swift in Sources */,
 				08081E67238550AB004E8807 /* CurrencyView.swift in Sources */,
 				08FFA2012382EE8B00B10BCD /* AppConstants.swift in Sources */,
 				08FFA1C12382E3F600B10BCD /* AppDelegate.swift in Sources */,
@@ -532,6 +545,9 @@
 				08FFA1C32382E3F600B10BCD /* SceneDelegate.swift in Sources */,
 				08FFA2032382EEC900B10BCD /* Currency.swift in Sources */,
 				080155282384595B00FBFE23 /* MenuCollectionViewCell.swift in Sources */,
+				085E94402386AD3300FBEF32 /* ConvertorVC.swift in Sources */,
+				085E94422386B09B00FBEF32 /* CurrencyTableViewCell.swift in Sources */,
+				085E943F2386AD3300FBEF32 /* CurrencyListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,7 +722,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y89LU2A58Y;
 				INFOPLIST_FILE = CurrencyConvertor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -724,7 +742,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y89LU2A58Y;
 				INFOPLIST_FILE = CurrencyConvertor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

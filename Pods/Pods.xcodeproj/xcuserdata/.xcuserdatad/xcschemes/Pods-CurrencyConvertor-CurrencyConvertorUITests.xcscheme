@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4F2DDA352E8CF573D42D76941A46DF5"
+               BlueprintIdentifier = "14A79FB07DD04E924B8245A4BC8E2818"
                BlueprintName = "Pods-CurrencyConvertor-CurrencyConvertorUITests"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-CurrencyConvertor-CurrencyConvertorUITests.framework">

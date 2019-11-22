@@ -11,7 +11,8 @@ import UIKit
 class ConvertorVM :BaseVM {
     var apiHandler:ConvertorAPIHandler = ConvertorAPIHandler()
     var dataHandler:ConvertorDataHandler = ConvertorDataHandler()
-    var currencyRateList = [CurrencyRate]()
+    var currencyUpdatedRateList = [CurrencyRate]()
+    var currencyBaseRateList = [CurrencyRate]()
     lazy var menuTitles: [String] = {
         [unowned self] in
         return AppConstants.menuOptions
@@ -27,11 +28,15 @@ class ConvertorVM :BaseVM {
             onCompletion(responseObject, errorObject)
         }
     }
-    func getCountryFlagImage(from code:String)->String? {
-        dataHandler.getCountryFlag(from: code)
+   
+    func getSecondaryCurrencyObject(_ currencyList:inout [CurrencyRate])->CurrencyRate? {
+        dataHandler.getSecondaryCurrencyObject(&currencyList)
     }
-    func getSecondaryCurrencyObject(_ currencyList:[CurrencyRate])->CurrencyRate? {
-        dataHandler.getSecondaryCurrencyObject(currencyList)
+    func getPrimaryCurrencyObject()->CurrencyRate? {
+        dataHandler.getPrimaryCurrencyObject()
+    }
+    func updateCurrencyListWithReference(_ currency:CurrencyRate,currencylist:[CurrencyRate])->[CurrencyRate] {
+        dataHandler.updateCurrencyListWithReference(currency,currencylist)
     }
     
     

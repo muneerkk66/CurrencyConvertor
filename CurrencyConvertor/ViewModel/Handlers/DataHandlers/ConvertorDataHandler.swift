@@ -9,17 +9,31 @@
 import Foundation
 import UIKit
 class ConvertorDataHandler: NSObject {
-    func getCountryFlag(from code:String)->String? {
-        return code.lowercased()
+    func getSecondaryCurrencyObject(_ currencyList:inout [CurrencyRate])->CurrencyRate? {
+        return currencyList.dropFirst().first
     }
-    func getSecondaryCurrencyObject(_ currencyList:[CurrencyRate])->CurrencyRate? {
-        guard let secondObj =  currencyList.dropFirst().first else{
-            return nil
+    func getPrimaryCurrencyObject()->CurrencyRate? {
+         
+        return CurrencyRate(code: AppConstants.defaultCurrencyCode, rate: AppConstants.defaultCurrencyValue, name: AppConstants.defaultCurrencyName)
+    }
+    func updateCurrencyListWithReference(_ currency:CurrencyRate,_ currencylist:[CurrencyRate])->[CurrencyRate] {
+            
+            let baseCurrency = currencylist.filter{$0.code == currency.code}.first
+            return currencylist.map{
+                var obj = $0
+                if obj.code == currency.code {
+                    obj.rate = currency.rate
+                }else{
+                    if currency.code == AppConstants.defaultCurrencyCode {
+                         obj.rate = currency.rate * obj.rate
+                    }else{
+                        
+                        obj.rate =  obj.rate / (baseCurrency!.rate) * currency.rate
+                    }
+                }
+                return obj
         }
-        return secondObj
-    }
-    func getPrimaryCurrencyObject(_ currencyList:[CurrencyRate])->CurrencyRate? {
-        currencyList.filter{$0.code == AppConstants.de}
-        return secondObj
+        
+        
     }
 }

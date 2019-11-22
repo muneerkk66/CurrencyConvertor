@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5EC020A4446D92F95DAA1E7A8DD99B9"
-               BlueprintName = "Pods-CurrencyConvertor"
+               BlueprintIdentifier = "571667865CEC6F01B5106FB84411AC8C"
+               BlueprintName = "FittedSheets"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Pods-CurrencyConvertor.framework">
+               BuildableName = "FittedSheets.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
