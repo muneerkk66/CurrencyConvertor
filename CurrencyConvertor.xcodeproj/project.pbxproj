@@ -65,6 +65,7 @@
 		085E94412386B09B00FBEF32 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		085E94432386B31500FBEF32 /* AppEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnum.swift; sourceTree = "<group>"; };
 		088130DE2387F2E500FCAD8A /* ConvertorLicense.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConvertorLicense.txt; sourceTree = "<group>"; };
+		088130E02388024800FCAD8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		08FFA1BD2382E3F600B10BCD /* CurrencyConvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FFA1C02382E3F600B10BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08FFA1C22382E3F600B10BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +151,7 @@
 		08FFA1B42382E3F600B10BCD = {
 			isa = PBXGroup;
 			children = (
+				088130E02388024800FCAD8A /* README.md */,
 				08FFA1BF2382E3F600B10BCD /* CurrencyConvertor */,
 				08FFA1D62382E3FA00B10BCD /* CurrencyConvertorTests */,
 				08FFA1E12382E3FA00B10BCD /* CurrencyConvertorUITests */,
